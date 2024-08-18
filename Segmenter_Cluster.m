@@ -10,12 +10,7 @@ load('Image_Names_char.mat') % This .mat records the name of all images to read 
 % original image.
 % The individual colony images are named as '(Originalimagename)_n.tif'
 % n is the index of the image.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% this algorithm uses edge detection
-% ref: https://www.mathworks.com/help/images/detecting-a-cell-using-image-segmentation.html
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Step 1: Read Image
 I = imread(FileNames{taskID});
